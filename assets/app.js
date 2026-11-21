@@ -6,7 +6,7 @@
     app.innerHTML = "<p style='padding:40px'>data/portfolio.js 를 불러오지 못했습니다. 문법 오류(쉼표, 따옴표)를 확인하세요.</p>";
     return;
   }
-  document.title = data.profile.name + " · " + data.profile.role + " 포트폴리오";
+  document.title = data.profile.name + " " + data.profile.role + " 포트폴리오";
   app.innerHTML = window.renderPortfolio(data);
 
   // 스크롤 등장 효과

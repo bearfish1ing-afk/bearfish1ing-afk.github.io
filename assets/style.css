@@ -124,7 +124,7 @@ strong { font-weight: 700; }
 .project-title { margin: 4px 0 0; font-size: clamp(24px, 3vw, 30px); font-weight: 800; letter-spacing: -0.02em; }
 .project-sub { margin: 4px 0 0; color: var(--ink-2); font-weight: 600; }
 .project-meta { margin: 10px 0 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 0; font-size: 14px; color: var(--ink-3); }
-.project-meta span + span::before { content: "·"; margin: 0 10px; color: var(--lav-3); }
+.project-meta span + span::before { content: ""; display: inline-block; width: 1px; height: 12px; margin: 0 12px; background: var(--lav-3); vertical-align: -1px; }
 .project-body { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 36px; align-items: start; }
 
 .panel {
