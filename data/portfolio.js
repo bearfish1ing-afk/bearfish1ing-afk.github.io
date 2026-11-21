@@ -29,8 +29,8 @@ window.PORTFOLIO = {
       ["자격증", "SQLD (2025.04)", "badge"],
       ["동아리", "ALOC 5기", "pin"],
     ],
-    github: "",                                // ex) "https://github.com/아이디"
-    email: "",                                 // ex) "me@example.com"
+    github: "https://github.com/bearfish1ing-afk",                                // ex) "https://github.com/아이디"
+    email: "bearfish1ing@gmail.com",                                 // ex) "me@example.com"
   },
 
   /* ---------------- 소개 ----------------
